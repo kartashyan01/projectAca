@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f2f2f2;
+    padding: 15px 20px;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+    margin-top: 20%;
+}
+
+#show-todo-btn {
+    border: 1px solid;
+    background-color: #515050;
+    color: #d6caca;
+    padding: 10px 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    border: 1px solid;
+    padding: 8px 16px;
+    background-color: #393838;
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+main ul li,
+ .not-completed {
+    background-color: #f2f2f2;
+    text-decoration: line-through;
+}
+
+main ul li,
+ .completed {
+    background-color: #f2f2f2;
+}
